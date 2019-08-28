@@ -1,19 +1,29 @@
 # Smart Impactor post message
 
-## Install
+Install
+------------
 ```
 npm install BeMyEye/smart-impactor-post-message
 ```
 
-## Init
-```
+Usage
+------------
+``` typescript
 import { smartImpactorPostMessage } from 'smart-impactor-post-message'; 
 
 smartImpactorPostMessage.init('https://pro.bemyeye.com');
 ```
 
-## Usage
-```
+Available functions
+---------------
+
+**onSubmitSuccess**
+
+``` typescript
 smartImpactorPostMessage.onSubmitSuccess();
-smartImpactorPostMessage.onSubmitError('Error message);
+```
+
+**onSubmitError**
+``` typescript
+smartImpactorPostMessage.onSubmitError('Error message');
 ```
