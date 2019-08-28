@@ -15,7 +15,7 @@ export const smartImpactorPostMessage = {
       var width = document.documentElement.clientWidth;
       var height = document.documentElement.clientHeight;
 
-      smartImpactorPostMessage.postMessage('resize', {
+      smartImpactorPostMessage._postMessage('resize', {
         width: width,
         height: height
       });
